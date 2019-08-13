@@ -31,4 +31,4 @@ docker-compose.yml:
         restart: unless-stopped
    ---
     
-    
+  - /logs folder inside the container keeps the last ddns update status, please mount it in order to see the last status from outside
