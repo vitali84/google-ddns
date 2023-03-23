@@ -12,4 +12,3 @@ VOLUME ["/logs"]
 ENTRYPOINT ["/app/entrypoint.sh"]
 
 CMD ["crond", "-f"]
-

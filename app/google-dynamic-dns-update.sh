@@ -9,7 +9,7 @@ URL="https://${USERNAME}:${PASSWORD}@domains.google.com/nic/update?hostname=${HO
 RESPONSE=$(curl -s $URL)
 
 if [[ $RESPONSE =~ ^(good|nochg) ]]; then
-echo "[$(date)] IP updated Succesfully"
+  echo "[$(date)] IP updated Successfully"
 else
-echo "[$(date)] Error while updating: \"$RESPONSE\""
+  echo "[$(date)] Error while updating: \"$RESPONSE\""
 fi
