@@ -1,3 +1,5 @@
+# DEPRECATED
+#google domains no longer exists
 # google-ddns
 Update your google ddns ip address periodically from a docker
 
